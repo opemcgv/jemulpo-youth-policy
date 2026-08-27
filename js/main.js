@@ -1,7 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const menuBtn = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav-links');
-  if (menuBtn && nav) menuBtn.addEventListener('click', () => nav.classList.toggle('open'));
+  if (menuBtn && nav) {
+    menuBtn.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+  }
 
   const search = document.querySelector('#policy-search');
   const category = document.querySelector('#category-filter');
