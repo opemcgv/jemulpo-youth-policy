@@ -1,7 +1,7 @@
 const SITE_CONFIG = {
   brand: {
-    name: '제물포 청년정책',
-    suffix: '.zip',
+    name: '유유기지 제물포구 청년정책상담',
+    suffix: '',
     home: 'index.html'
   },
   nav: [
@@ -12,7 +12,7 @@ const SITE_CONFIG = {
     { href: 'growth.html', label: '성장 쑥쑥 필요정보' }
   ],
   footer: {
-    title: '제물포 청년정책.zip',
+    title: '제물포구 청년정책.zip',
     text: '유유기지 제물포구 청년정책상담을 위한 정보 페이지 · 정책 신청 전 반드시 공식 공고를 확인해주세요.'
   }
 };
