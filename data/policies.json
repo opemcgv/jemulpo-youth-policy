@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sample-001",
+    "title": "청년 취업역량 지원",
+    "category": "취업",
+    "region": "전국",
+    "target": "청년",
+    "deadline": "예시",
+    "summary": "직무교육과 취업 준비를 지원하는 예시 데이터입니다.",
+    "officialUrl": "",
+    "updatedAt": "2026-08-27",
+    "isSample": true
+  },
+  {
+    "id": "sample-002",
+    "title": "청년 창업 성장지원",
+    "category": "창업",
+    "region": "인천",
+    "target": "청년 창업가",
+    "deadline": "예시",
+    "summary": "창업 교육과 사업화를 지원하는 예시 데이터입니다.",
+    "officialUrl": "",
+    "updatedAt": "2026-08-27",
+    "isSample": true
+  }
+]
