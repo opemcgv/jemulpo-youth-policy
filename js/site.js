@@ -1,7 +1,7 @@
 const SITE_CONFIG = {
   brand: {
-    name: '유유기지 제물포구 청년정책상담',
-    suffix: '',
+    prefix: '유유기지 제물포구',
+    name: '청년정책상담',
     home: 'index.html'
   },
   nav: [
@@ -34,7 +34,7 @@ function renderSiteHeader() {
   target.innerHTML = `
     <header class="site-header">
       <div class="container nav">
-        <a class="brand" href="${SITE_CONFIG.brand.home}">${SITE_CONFIG.brand.name}<span>${SITE_CONFIG.brand.suffix}</span></a>
+        <a class="brand" href="${SITE_CONFIG.brand.home}"><span>${SITE_CONFIG.brand.prefix}</span> ${SITE_CONFIG.brand.name}</a>
         <button class="menu-btn" aria-label="메뉴" aria-expanded="false">☰</button>
         <nav class="nav-links" aria-label="주요 메뉴">${links}</nav>
       </div>
